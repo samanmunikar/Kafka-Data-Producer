@@ -1,0 +1,19 @@
+{ "type": "record",
+  "name": "SS_225_ELIG",
+  "fields": [
+     {"name": "sn", "type": ["long","int", "null"]},
+     {"name": "enrid", "type": ["string", "null"]},
+     {"name": "memberfirstname", "type": ["string", "null"]},
+     {"name": "memberlastname", "type": ["string", "null"]},
+     {"name": "relflag", "type": ["string", "null"]},
+     {"name": "gender", "type": ["string", "null"]},
+     {"name": "dob", "type": ["string", "null"], "logicalType":"date"},
+     {"name": "address", "type": ["string", "null"]},
+     {"name": "city", "type": ["string", "null"]},
+     {"name": "state", "type": ["string", "null"]},
+     {"name": "zip", "type": ["string", "null"]},
+     {"name": "phonenumber", "type": ["string", "null"]},
+     {"name": "effdate", "type": ["int", "null"], "logicalType":"date"},
+     {"name": "termdate", "type": ["int", "null"], "logicalType":"date"}
+   ]
+}
